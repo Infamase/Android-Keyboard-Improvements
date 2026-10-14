@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            style="@style/SectionTitle"
+            android:text="@string/setup_title" />
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp" />
+
+        <Button
+            android:id="@+id/enable_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/step_enable" />
+
+        <Button
+            android:id="@+id/choose_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/step_choose" />
+
+        <TextView
+            style="@style/SectionTitle"
+            android:text="@string/try_title" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/try_hint"
+            android:importantForAutofill="no"
+            android:inputType="text" />
+
+        <TextView
+            style="@style/SectionTitle"
+            android:text="@string/settings_title" />
+
+        <TextView
+            android:id="@+id/key_height_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <SeekBar
+            android:id="@+id/key_height"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp" />
+
+        <Switch
+            android:id="@+id/haptics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:text="@string/haptics" />
+
+        <Switch
+            android:id="@+id/sticky_modifiers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:text="@string/sticky_modifiers" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.7"
+            android:text="@string/sticky_modifiers_summary" />
+
+        <TextView
+            style="@style/SectionTitle"
+            android:text="@string/moonlight_title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/moonlight_help" />
+    </LinearLayout>
+</ScrollView>

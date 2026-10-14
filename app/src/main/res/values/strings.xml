@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Gaming Keyboard</string>
+    <string name="ime_name">Gaming Keyboard</string>
+    <string name="subtype_en_us">English (US, PC layout)</string>
+
+    <string name="setup_title">Setup</string>
+    <string name="step_enable">1. Enable the keyboard</string>
+    <string name="step_choose">2. Switch to it</string>
+    <string name="status_ready">Gaming Keyboard is enabled and selected.</string>
+    <string name="status_not_enabled">Gaming Keyboard is not enabled yet.</string>
+    <string name="status_not_selected">Enabled, but another keyboard is selected.</string>
+
+    <string name="settings_title">Settings</string>
+    <string name="key_height">Key height: %1$d dp</string>
+    <string name="haptics">Vibrate on key press</string>
+    <string name="sticky_modifiers">Sticky modifiers</string>
+    <string name="sticky_modifiers_summary">On: tap Ctrl/Alt/Shift/Win to apply it to the next key, double-tap to lock it. Off: modifiers are only held while touched, which suits games that use them on their own.</string>
+
+    <string name="try_title">Try it</string>
+    <string name="try_hint">Tap here to open the keyboard</string>
+
+    <string name="moonlight_title">Using it with Moonlight</string>
+    <string name="moonlight_help">In a Moonlight stream, open the keyboard (three-finger tap, or from Moonlight’s in-stream menu). Every key goes to the PC as a real key press.\n\n• Alt+Tab: tap the Alt+Tab shortcut to jump to the previous window. To pick any window, double-tap Alt to lock it, tap Tab until the window you want is selected, then tap Alt again.\n• Alt+F4, Win+D, Win+Tab and Task Manager are one tap in the top row.\n• Hold a shortcut to keep its keys held down.\n• Fn switches to F1–F12, navigation keys and a number pad.\n\nNote: Moonlight reserves Ctrl+Alt+Shift+Q (quit stream), +Z (release mouse) and +C (toggle cursor). Those combos are never sent to the PC.</string>
+</resources>
